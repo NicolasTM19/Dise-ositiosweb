@@ -1,0 +1,64 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+}
+nav, header, .contenedor, footer, aside{
+    max-width: 92%;
+    margin: auto;
+}
+article{
+    background-color: antiquewhite;
+    max-width: 90%;
+    margin: auto;
+}
+
+nav{
+    background-color: peru;
+}
+header{
+    background-color: peru;
+}
+.contenedor{
+    background-color: palevioletred;
+}
+.central{
+    background-color: green;
+    display: inline-block;
+    max-width: 65%;
+}
+footer{
+    background-color: antiquewhite;
+}
+aside{
+    background-color: wheat;
+    max-width: 80%;    
+    
+}
+/* Menu despaglable*/
+.Menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9mm;
+}
+.listaDespegable{
+   display: none;
+   background-color: goldenrod;
+   color: black;
+
+}
+.listadespegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDespegable{
+    display: block;   
+}
+li a:hover{
+    background-color: blue;
+}
